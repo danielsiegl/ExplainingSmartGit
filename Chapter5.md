@@ -1,0 +1,1 @@
+# Chapter 5: The 3 faces of SmartGit
