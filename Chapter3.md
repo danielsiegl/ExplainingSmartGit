@@ -19,7 +19,7 @@ As with most other distributed version control systems, and unlike most [client
 
 Git is a [free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software "Free and open-source software") shared under the [GPL-2.0-only license](https://en.wikipedia.org/wiki/GNU_General_Public_License "GNU General Public License").
 
-## Best Practices are using Feature Branches for new capabilities/features#
+## Best Practices are utilizing Feature Branches for new capabilities/features#
 **Git's flexibility can be both a strength and a challenge**, especially in large-scale deployments where consistency, collaboration, and process adherence are crucial. To address these challenges, best practice workflows like GitFlow and GitHub Flow have been developed. Here’s a brief overview of these workflows:
 
 ![](Pasted%20image%2020240826132423.png)
