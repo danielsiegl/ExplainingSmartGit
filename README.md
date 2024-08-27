@@ -12,4 +12,4 @@ This is meant to be a tutorial for why the world needs powerful git gui tools li
 
 [Chapter 5: The 3 faces of SmartGit](Chapter5.md)
 
-[Chapter 6: Integrations with other tools](Chapter6.md)
+[Chapter 6: Step by Step GitHub Flow](Chapter6.md)
