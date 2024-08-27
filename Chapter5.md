@@ -1,5 +1,7 @@
 # Chapter 5: The 3 faces of SmartGit
 
+## Summary
+This is meant to give an overview of the 3 different Window/Workflow Styles SmarGit provides for it's customers.
 ## SmartGit comes in 3 flavors.
 
 ![](/StartupWizard.png)

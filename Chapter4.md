@@ -1,5 +1,8 @@
 # Chapter 4: Why do we need a User Interface for Git?
 
+## Summary
+This chapter tries to explain why a Git Graphical User Interface has many advantages over the traditional command line based approach that comes with git.
+
 ## Git Bash is the default
 
 ![](Pasted%20image%2020240826151417.png)

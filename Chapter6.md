@@ -1,5 +1,8 @@
 # Chapter 6: Step by Step GitHub Flow
 
+## Summary
+We use GitHub Flow as a relatively simply best practice workflow that works great with modern Git environments. See the official documentation: https://docs.github.com/en/get-started/using-github/github-flow
+
 ## Initial git repository creation
 
 ```mermaid
