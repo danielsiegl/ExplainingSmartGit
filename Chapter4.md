@@ -7,6 +7,8 @@ This chapter tries to explain why a Git Graphical User Interface has many advant
 
 ![Alt text for image](Pasted%20image%2020240826151417.png)
 
+The default look and feel of the Git user interface.
+
 ## Why a Git Graphical User Interface makes sense
 
 A Git GUI client can be a valuable tool for many developers, especially those who prefer visual interfaces or are new to version control. Here are several reasons why using a Git GUI client makes sense:
