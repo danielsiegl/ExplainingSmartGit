@@ -3,6 +3,8 @@
 ### Summary
 Git is a distributed version control system designed to track changes in source code during software development. Unlike centralized systems, Git allows every developer to have a complete copy of the project history, enabling offline work and improving collaboration. Git is highly efficient at branching and merging, making it ideal for managing multiple versions of a project simultaneously. **It has become the de facto standard for version control** due to its speed, flexibility, and the robust ecosystem around it, including platforms like GitHub, GitLab, Bitbucket ....
 All major it companies are heavily invested in git based tools and offerings! (Microsoft, Google, Atlassian, Amazon, ....)
+
+**"branch is basically a copy" ... "it's extremely cheap"**
 ## Outlook
 Git is coming to none software engineers sooner than you might expect! 
 A) [LieberLieber LemonTree - enabling Git Workflows for UML/SysML Modelers](https://www.lieberlieber.com/lemontree/de/)
