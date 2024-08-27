@@ -1,7 +1,8 @@
 # Chapter 6: Step by Step GitHub Flow
 
 ## Summary
-We use GitHub Flow as a relatively simply best practice workflow that works great with modern Git environments. See the official documentation: https://docs.github.com/en/get-started/using-github/github-flow
+We use GitHub Flow as a relatively simply best practice workflow that works great with modern Git environments. See the official documentation: https://docs.github.com/en/get-started/using-github/github-flow.
+This is meant to by step by step.
 
 ## Initial git repository creation
 
@@ -69,7 +70,7 @@ gitGraph
 
 ```mermaid
 ---
-title: Others bring change to the main branch
+title: Review changes
 ---
 gitGraph
    commit
@@ -113,7 +114,7 @@ gitGraph
 
 ```mermaid
 ---
-title: Merge changes back to main
+title: Our changes are now included in the new mainline
 ---
 gitGraph
    commit
