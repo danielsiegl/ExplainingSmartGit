@@ -17,6 +17,3 @@ This is meant to be a tutorial for why the world needs powerful git graphical us
 [Chapter 7: Best Practice Processes for Git ](Chapter7.md)
 
 [Chapter 8: Step by Step GitHub Flow](Chapter8.md)
-
-
-
