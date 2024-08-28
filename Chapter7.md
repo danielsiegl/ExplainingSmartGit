@@ -15,6 +15,8 @@ Once upon a time, in a magical forest, there was a group of friends who loved to
 And so, the treehouse grew bigger and better, with everyone’s cool ideas coming together to make something amazing!
 
 ## For Adults
+**Chatgpt Prompt:** Explain it to a 10 year old using a copying machine where you copy a sheet of paper and modify it
+
 Imagine you have a sheet of paper with a drawing on it that you and your friends have been working on. It's almost finished, but you have an idea for how to make it even better. Instead of drawing directly on the original paper, you decide to use a copying machine to make a copy of it. 
 
 *Branching*: You take that copy to your own table and start adding your new ideas—maybe you draw some extra details or change a few things. This way, the original drawing stays safe and unchanged while you work on your new ideas. This is like "branching." You're creating a new version to experiment with without changing the original.
