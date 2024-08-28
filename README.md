@@ -13,3 +13,5 @@ This is meant to be a tutorial for why the world needs powerful git graphical us
 [Chapter 5: The 3 faces of SmartGit](Chapter5.md)
 
 [Chapter 6: Step by Step GitHub Flow](Chapter6.md)
+
+[Chapter 7: Explaining branching and merging](Chapter7.md)
