@@ -1,44 +1,26 @@
-# Chapter 7: Best Practice Processes for Git 
+# Chapter 7: Explaining 2-way  and 3-way diffs
 
 ## Summary
-Several Best Practices are utilizing **Feature Branches** for new capabilities/features!
-**Git's flexibility can be both a strength and a challenge**, especially in large-scale deployments where consistency, collaboration, and process adherence are crucial. To address these challenges, best practice workflows like **GitFlow** and **GitHub Flow** have been developed. Here’s a brief overview of these workflows:
 
-![](Pasted%20image%2020240826132423.png)
-### 1. GitFlow
-- **Introduced by**: Vincent Driessen in 2010.
-- **Purpose**: Designed to manage complex projects with multiple versions and release cycles.
-- **Key Features**:
-  - **Main branches**: 
-    - `master`: The production-ready code.
-    - `develop`: The integration branch for features; it represents the next release.
-  - **Supporting branches**:
-    - **Feature branches**: Used for developing new features, branched off `develop`.
-    - **Release branches**: Created from `develop` when the release is near; final bug fixes and preparations are made here before merging into `master`.
-    - **Hotfix branches**: Used for critical fixes in `master` that need to be addressed immediately.
-- **Workflow**:
-  1. Developers create feature branches from `develop`.
-  2. Once a feature is complete, it is merged back into `develop`.
-  3. When a release is ready, a release branch is created from `develop` for final adjustments.
-  4. After the release is finalized, the release branch is merged into both `master` and `develop`.
-  5. Hotfixes are branched off `master`, then merged into both `master` and `develop`.
+In the context of version control and file comparison, **2-way diff** and **3-way diff** refer to different methods of comparing and merging files or code changes. In summary, a 2-way diff is used for simple file comparisons, while a 3-way diff is essential for merging changes from different sources, particularly in collaborative development environments.
 
-### 2. GitHub Flow
-- **Introduced by**: GitHub.
-- **Purpose**: A simpler, more flexible workflow, ideal for continuous delivery and deployment.
-- **Key Features**:
-  - **Main branch**:
-    - `main`: The single production branch (in GitHub, it’s often called `main`).
-  - **Feature branches**: Developers create feature branches directly from `main`.
-- **Workflow**:
-  1. Developers create feature branches from `main`.
-  2. Features are developed and tested in these branches.
-  3. Once ready, a pull request (PR) is made to merge the feature branch back into `main`.
-  4. The PR is reviewed, tested, and then merged into `main`.
-  5. Continuous deployment practices often automatically deploy `main` to production after each merge.
+![](3WayWaterGlasses.png)
+## 2-Way Diff
+A **2-way diff** involves comparing two versions of a file or set of files. This comparison shows the differences between the two versions, highlighting changes such as additions, deletions, and modifications.
 
-### Comparison:
-- **GitFlow** is more structured, making it suitable for projects with scheduled releases and multiple versions, like software with different versions or long-term support.
-- **GitHub Flow** is simpler and more suited for teams practicing continuous deployment or working on projects where code is frequently and incrementally pushed to production.
+- **Use Case:** A 2-way diff is commonly used when you want to compare the current version of a file with a previous version to see what has changed. This is typical in version control systems when comparing a working directory file with its last committed version.
+- **How It Works:** The diff tool compares the two files line by line and identifies differences. It does not have any context about other versions or how the changes relate to each other.
 
-Both workflows aim to maintain order and quality in the development process, but the choice between them depends on the project's nature, the team's size, and the deployment strategy.
+## 3-Way Diff
+A **3-way diff** involves comparing three versions of a file: 
+1. **Base Version:** The common ancestor of the two versions being compared.
+2. **Version A:** One of the versions to be merged or compared.
+3. **Version B:** The other version to be merged or compared.
+
+- **Use Case:** A 3-way diff is most commonly used in merging changes from different branches in a version control system. It helps resolve conflicts that arise when two people have edited the same file differently.
+- **How It Works:** The diff tool compares Version A and Version B to the Base Version. It shows the differences between each version and the base, and attempts to merge them. If there are conflicting changes (i.e., the same part of the file was modified differently in Version A and Version B), the tool will highlight these conflicts for manual resolution.
+
+## Key Differences:
+- **Context Awareness:** A 3-way diff has more context because it includes the base version, allowing it to better understand the origin of changes and helping to resolve conflicts more intelligently. A 2-way diff simply compares two files without any context about their history.
+- **Complexity:** A 3-way diff is more complex as it involves three versions and is typically used in scenarios where multiple people are making changes, whereas a 2-way diff is simpler and is used for straightforward comparisons.
+- **Conflict Resolution:** In a 3-way diff, the merging process can automatically resolve non-conflicting changes and flag only the areas where manual intervention is needed. A 2-way diff does not support automatic merging since it lacks the context of a common ancestor.
