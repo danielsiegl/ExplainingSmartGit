@@ -5,7 +5,7 @@ This chapter tries to explain why a Git Graphical User Interface has many advant
 
 ## Git Bash is the default
 
-![](Pasted%20image%2020240826151417.png)
+![](GitBash.png)
 
 ## Why a Git Graphical User Interface makes sense
 

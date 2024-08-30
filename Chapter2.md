@@ -1,7 +1,7 @@
 ## Chapter 2: History of Version Control Systems
 
 ## Summary 
-![](/Pasted%20image%2020240826132641.png)
+![](FloppyDisks.png)
 In 1993 software and games where still built by swapping floppy disks between developers! (see [DOOM](https://de.wikipedia.org/wiki/Doom_(1993))) aka **"Disketten Laufstrecke"**
 
 „The first real version control system goes back to 1972 when a Source Code Control System (SCCS) started getting developed by Marc J. Rochkind at Bell laboratories as a set of commands developed for OS/MVT, and later on UNIX.”

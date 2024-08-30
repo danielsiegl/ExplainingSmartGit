@@ -14,6 +14,8 @@ This is meant to be a tutorial for why the world needs powerful git graphical us
 
 [Chapter 6: Explaining branching and merging](Chapter6.md)
 
-[Chapter 7: Best Practice Processes for Git ](Chapter7.md)
+[Chapter 7: Explaining 2-way  and 3-way diffs](Chapter7.md)
 
-[Chapter 8: Step by Step GitHub Flow](Chapter8.md)
+[Chapter 8: Best Practice Processes for Git ](Chapter8.md)
+
+[Chapter 9: Step by Step GitHub Flow](Chapter9.md)
