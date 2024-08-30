@@ -1,3 +1,4 @@
-# Chapter 10: The power of clean commits
+# Chapter 10: GitHub Flow with SmartGit
 
-https://cbea.ms/git-commit/
+## Summary
+
