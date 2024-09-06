@@ -19,3 +19,5 @@ This is meant to be a tutorial for why the world needs powerful git graphical us
 [Chapter 8: Best Practice Processes for Git ](Chapter8.md)
 
 [Chapter 9: Step by Step GitHub Flow](Chapter9.md)
+
+[Chapter 10: The power of clean commits](Chapter10.md)
