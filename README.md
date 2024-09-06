@@ -20,7 +20,4 @@ This is meant to be a tutorial for why the world needs powerful git graphical us
 
 [Chapter 9: Step by Step GitHub Flow](Chapter9.md)
 
-[Chapter 10: The power of clean commits](Chapter10.md
-
 [Chapter 11: GitHub Flow with SmartGit](Chapter11.md)
-
