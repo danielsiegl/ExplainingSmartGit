@@ -5,9 +5,11 @@ In this chapter we try to explain branching and merging for none software engine
 
 ## Video: Explaining branching with a sheet of paper and a Xerox
 
-
 [![Branching with Xerox and Paper](https://img.youtube.com/vi/o8jw6a4l_ak/0.jpg)](https://www.youtube.com/watch?v=o8jw6a4l_ak)
 
+## Video: Explaining merging with a sheet of paper and a Xerox
+
+[![Merging with Xerox and Paper](https://img.youtube.com/vi/Py_eS2OXvb4/0.jpg)](https://www.youtube.com/watch?v=Py_eS2OXvb4)
 
 ## For Kids
 **Chatgpt Prompt:** Explain branching and merging to a 7 year old as a story
